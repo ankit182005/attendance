@@ -1,0 +1,103 @@
+[2025-11-18 16:12:41,367] DEBUG attendance:205 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:13:07,762] INFO attendance:92 — StartAttendance called by user_id=1 username=ankit
+[2025-11-18 16:13:29,071] DEBUG attendance:205 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:13:32,142] DEBUG attendance:205 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:16:17,549] DEBUG attendance:205 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:19:44,648] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:19:59,468] INFO attendance:92 — StartAttendance called by user_id=1 username=ankit
+[2025-11-18 16:19:59,469] INFO attendance:94 — User: ankit
+[2025-11-18 16:20:21,697] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:21:01,469] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:21:02,440] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:21:03,128] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:21:03,367] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:21:03,496] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:21:03,687] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:21:34,417] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:21:34,419] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:21:34,419] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:22:32,190] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:22:32,190] DEBUG attendance:211 — sess
+[2025-11-18 16:22:35,397] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:22:35,397] DEBUG attendance:211 — sess
+[2025-11-18 16:22:45,305] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:22:45,305] DEBUG attendance:211 — sess
+[2025-11-18 16:22:46,360] INFO attendance:92 — StartAttendance called by user_id=1 username=ankit
+[2025-11-18 16:22:46,361] INFO attendance:94 — User: ankit
+[2025-11-18 16:24:02,784] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:26:01,680] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:26:01,681] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:26:01,682] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:27:22,806] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:27:48,243] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:27:48,243] DEBUG attendance:211 — sess
+[2025-11-18 16:27:55,448] INFO attendance:92 — StartAttendance called by user_id=1 username=ankit
+[2025-11-18 16:27:55,449] INFO attendance:94 — User: ankit
+[2025-11-18 16:28:38,489] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:28:58,502] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:28:58,504] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:29:42,504] INFO attendance:92 — StartAttendance called by user_id=1 username=ankit
+[2025-11-18 16:29:42,505] INFO attendance:94 — User: ankit
+[2025-11-18 16:29:42,506] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:29:42,506] DEBUG attendance:208 — sess
+[2025-11-18 16:29:44,786] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-18 16:29:44,787] DEBUG attendance:208 — sess
+[2025-11-25 09:30:22,385] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-25 09:30:22,386] DEBUG attendance:208 — sess
+[2025-11-25 09:30:22,392] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-25 09:30:22,392] DEBUG attendance:208 — sess
+[2025-11-25 09:30:22,397] DEBUG attendance:206 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-25 09:30:22,397] DEBUG attendance:208 — sess
+[2025-11-25 09:30:44,978] INFO attendance:92 — StartAttendance called by user_id=1 username=ankit
+[2025-11-25 09:30:44,979] INFO attendance:94 — User: ankit
+[2025-11-25 09:32:08,395] INFO attendance:92 — StartAttendance called by user_id=1 username=ankit
+[2025-11-25 09:32:08,395] INFO attendance:94 — User: ankit
+[2025-11-25 09:32:08,396] INFO attendance:96 — Active: None
+[2025-11-25 09:32:21,874] DEBUG attendance:207 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-25 09:32:21,875] DEBUG attendance:209 — sess
+[2025-11-25 09:37:45,577] DEBUG attendance:207 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-25 09:37:45,578] DEBUG attendance:209 — sess
+[2025-11-25 09:37:45,578] DEBUG attendance:211 — None
+[2025-11-25 09:37:47,615] INFO attendance:92 — StartAttendance called by user_id=1 username=ankit
+[2025-11-25 09:37:47,615] INFO attendance:94 — User: ankit
+[2025-11-25 09:37:47,616] INFO attendance:96 — Active: None
+[2025-11-25 09:38:20,269] INFO attendance:92 — StartAttendance called by user_id=1 username=ankit
+[2025-11-25 09:38:20,270] INFO attendance:94 — User: ankit
+[2025-11-25 09:38:20,270] INFO attendance:96 — Active: None
+[2025-11-25 09:38:21,892] DEBUG attendance:207 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-25 09:38:21,892] DEBUG attendance:209 — sess
+[2025-11-25 09:38:42,987] DEBUG attendance:207 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-25 09:38:42,988] DEBUG attendance:209 — sess
+[2025-11-25 09:38:42,988] DEBUG attendance:211 — None
+[2025-11-25 09:38:42,988] DEBUG attendance:213 — {'sessions': []}
+[2025-11-25 09:44:23,971] INFO attendance:107 — StartAttendance called by user_id=1 username=ankit
+[2025-11-25 09:44:23,971] DEBUG attendance:132 — Appended session 63bda589-6455-4b99-9e16-7901ce38a43a for user 1; sessions_count=1
+[2025-11-25 09:44:23,972] DEBUG attendance:135 — Attendance session created for user_id=1 session_id=63bda589-6455-4b99-9e16-7901ce38a43a
+[2025-11-25 09:44:23,987] DEBUG attendance:234 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-25 09:44:36,676] INFO attendance:269 — DailyCSVExport requested by user_id=1
+[2025-11-25 09:44:48,942] INFO attendance:150 — ToggleBreak called by user_id=1 username=ankit
+[2025-11-25 09:44:48,943] DEBUG attendance:180 — Break started for user_id=1 session_id=63bda589-6455-4b99-9e16-7901ce38a43a
+[2025-11-25 09:44:48,949] DEBUG attendance:234 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-25 09:44:54,193] INFO attendance:269 — DailyCSVExport requested by user_id=1
+[2025-11-25 09:45:36,370] INFO attendance:150 — ToggleBreak called by user_id=1 username=ankit
+[2025-11-25 09:45:36,371] DEBUG attendance:169 — Break ended for user_id=1 session_id=63bda589-6455-4b99-9e16-7901ce38a43a
+[2025-11-25 09:45:36,380] DEBUG attendance:234 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-25 09:45:52,494] INFO attendance:194 — EndAttendance called by user_id=1 username=ankit
+[2025-11-25 09:45:52,494] DEBUG attendance:211 — Attendance ended for user_id=1 session_id=63bda589-6455-4b99-9e16-7901ce38a43a
+[2025-11-25 09:46:03,566] DEBUG attendance:234 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-25 09:46:03,571] DEBUG attendance:234 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-25 09:46:03,584] DEBUG attendance:234 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-25 09:46:08,269] INFO attendance:269 — DailyCSVExport requested by user_id=1
+[2025-11-25 09:47:06,781] INFO attendance:371 — Register attempt username=aadd
+[2025-11-25 09:47:07,626] INFO attendance:387 — User created id=4 username=aadd
+[2025-11-25 09:47:37,378] DEBUG attendance:234 — CurrentStatus requested by user_id=4 username=aadd
+[2025-11-25 09:47:37,383] DEBUG attendance:234 — CurrentStatus requested by user_id=4 username=aadd
+[2025-11-25 09:47:37,394] DEBUG attendance:234 — CurrentStatus requested by user_id=4 username=aadd
+[2025-11-25 09:47:38,646] INFO attendance:107 — StartAttendance called by user_id=4 username=aadd
+[2025-11-25 09:47:38,647] DEBUG attendance:132 — Appended session 7a1ab37a-a657-4e19-b443-cd99c618cf61 for user 4; sessions_count=1
+[2025-11-25 09:47:38,648] DEBUG attendance:135 — Attendance session created for user_id=4 session_id=7a1ab37a-a657-4e19-b443-cd99c618cf61
+[2025-11-25 09:47:38,657] DEBUG attendance:234 — CurrentStatus requested by user_id=4 username=aadd
+[2025-11-25 09:47:58,498] DEBUG attendance:234 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-25 09:47:58,502] DEBUG attendance:234 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-25 09:47:58,512] DEBUG attendance:234 — CurrentStatus requested by user_id=1 username=ankit
+[2025-11-25 09:48:02,346] INFO attendance:269 — DailyCSVExport requested by user_id=1
