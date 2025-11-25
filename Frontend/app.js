@@ -1,5 +1,6 @@
 // ---- Configuration ----
-const API_BASE = 'http://127.0.0.1:8000/api/'; // change if different
+const API_BASE = 'http://127.0.0.1:8000/api/'; // local
+//const API_BASE = 'https://attendance-0gu9.onrender.com/api/'; //prod
 const tokenKey = 'att_access_token';
 
 // ---- Utilities ----
