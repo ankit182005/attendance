@@ -1,0 +1,23 @@
+#create venv (run from project root where manage.py is located)
+python -m venv venv
+
+#run command in CMD to activate venv
+venv\Scripts\activate.bat
+
+#install dependencies
+pip install -r requirements.txt
+
+#check attendance_project/settings.py for local dev values
+DEBUG = TRUE;
+ALLOWED_HOSTS = ["localhost","127.0.0.1"]
+
+#Make migrations and migrate
+python manage.py makemigrations
+python manage.py migrate
+
+#for creating superuser(admin)
+python manage.py createsuperuser
+#follow the prompts(username,email,password)
+
+#run the local development server
+python manage.py runserver

@@ -3,15 +3,18 @@ from datetime import timedelta
 import os
 import sys
 
+# Base dir
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # --------------------
 # Security
 # --------------------
 SECRET_KEY = os.environ.get('SECRET_KEY', 'replace-this-in-production')
-DEBUG = os.environ.get('DEBUG', 'True').lower() in ('true', '1', 'yes')
+#DEBUG = True  # local
+DEBUG = os.environ.get('DEBUG', 'True').lower() in ('true', '1', 'yes')  # prod
 
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '*').split(',')
+#ALLOWED_HOSTS = ["localhost", "127.0.0.1"]  # local
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '*').split(',')  # prod
 
 # --------------------
 # Installed apps
@@ -37,7 +40,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',  # <-- WhiteNoise here
+    'whitenoise.middleware.WhiteNoiseMiddleware',  # WhiteNoise
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -83,8 +86,11 @@ DATABASES = {
 # --------------------
 AUTH_PASSWORD_VALIDATORS = []
 
+# --------------------
+# Internationalization / Timezone
+# --------------------
 LANGUAGE_CODE = 'en-us'
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Kolkata'   # set to your local timezone
 USE_I18N = True
 USE_TZ = True
 
@@ -93,18 +99,27 @@ USE_TZ = True
 # --------------------
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
-
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # --------------------
-# CSV directory
+# CSV directory (ensure exists, create parents)
 # --------------------
 CSV_EXPORT_DIR = BASE_DIR / 'csv_exports'
-CSV_EXPORT_DIR.mkdir(exist_ok=True)
+try:
+    CSV_EXPORT_DIR.mkdir(parents=True, exist_ok=True)
+except Exception:
+    # If creation fails, continue — write attempts will raise later and appear in logs
+    pass
 
 # --------------------
-# Logging
+# Logging (console + rotating file for 'attendance' logger)
 # --------------------
+LOG_DIR = BASE_DIR / 'logs'
+try:
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
+except Exception:
+    pass
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
@@ -121,11 +136,19 @@ LOGGING = {
             'formatter': 'standard',
             'stream': sys.stdout,
         },
+        'attendance_file': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'formatter': 'standard',
+            'filename': str(LOG_DIR / 'attendance.log'),
+            'maxBytes': 5 * 1024 * 1024,  # 5 MB
+            'backupCount': 5,
+            'encoding': 'utf-8',
+        },
     },
 
     'loggers': {
         'attendance': {
-            'handlers': ['console'],
+            'handlers': ['attendance_file', 'console'],
             'level': 'DEBUG' if DEBUG else 'INFO',
             'propagate': False,
         },
